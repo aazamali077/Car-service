@@ -97,3 +97,13 @@ header li:hover{
     right: 0;
     bottom: 0;
 }
+
+::-webkit-scrollbar{
+    background-color: rgba(88, 86, 86, 0.463);
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(28, 28, 28, 0.41);
+    border-radius: 10px;
+}

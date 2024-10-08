@@ -1,0 +1,57 @@
+/* .about{
+    width: 100%;
+    height: 10vh;
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 55px;
+    color: #0464C4;
+} */
+
+.about-us{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    gap: 200px;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.left-side h2{
+    margin-bottom: 5%;
+    font-size: 45px;
+    font-weight: 900;
+    color: #0464C4;
+}
+
+.left-side p{
+    font-size: 14px;
+    font-weight: 100;
+    margin-bottom: 5%;
+}
+
+.left-side button{
+    all: unset;
+    background: #0464C4;
+    padding: 15px 40px;
+    color: whitesmoke;
+    margin: 5% 25%;
+    border-radius: 3px;
+}
+
+.about-us img{
+    width: 40%;
+    padding: 20px;
+    border-radius: 30px;
+    background-size: cover;
+}
+

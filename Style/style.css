@@ -110,5 +110,5 @@ header li:hover{
 
 ::-webkit-scrollbar-thumb{
     background: rgba(28, 28, 28, 0.41);
-    border-radius: 10px;
+    border-radius: 2px;
 }

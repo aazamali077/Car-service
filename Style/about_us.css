@@ -46,6 +46,7 @@
     color: whitesmoke;
     margin: 5% 25%;
     border-radius: 3px;
+    cursor: pointer;
 }
 
 .about-us img{

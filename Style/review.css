@@ -1,0 +1,74 @@
+#clientSay{
+    margin: 10% 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.what-clients-say{
+    overflow-x: hidden;
+    width: 96%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:  0 30px;
+    margin-left: 30px;
+    position: relative;
+    
+}
+
+.reviews{
+    position: absolute;
+    width: 30%;
+    height: 25vh;
+    background: white;
+    box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.227);
+    border-radius: 3px;
+    display: flex;
+    align-items:flex-start;
+    padding:  20px 20px;
+    gap: 20px;
+    transition: 1s ease;
+}
+
+.name-and-review{
+    margin-top:10px ;
+}
+
+.name-and-review ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name-and-review ul li{
+    all: unset;
+}
+
+.name-and-review p{
+    font-size: 12px;
+    margin-top: 15px;
+    color: gray;
+}
+
+.slider-buttons{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.slider-buttons button{
+    all: unset;
+    padding: 10px;
+    background: #0464C4;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.slider-buttons button:last-child{
+    transform: rotateZ(180deg);
+}

@@ -12,3 +12,6 @@ function stickyNavbar() {
         navbar.style.top = '6vh';
     }
 }
+
+
+

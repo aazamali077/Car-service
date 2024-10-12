@@ -6,22 +6,26 @@
 }
 
 .what-clients-say{
+    
+    user-select: none;
+    height: 40vh;
     overflow-x: hidden;
-    width: 96%;
-    height: 30vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:  0 30px;
+    padding:  30px;
     margin-left: 30px;
-    position: relative;
+    /* position: relative; */
     
 }
 
+.wrappered{
+    user-select: none;
+}
+
 .reviews{
-    position: absolute;
-    width: 30%;
-    height: 25vh;
+    /* position: absolute; */
+    user-select: none;
     background: white;
     box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.227);
     border-radius: 3px;
@@ -32,8 +36,15 @@
     transition: 1s ease;
 }
 
+.reviews img{
+    width: 8%;
+}
+
 .name-and-review{
     margin-top:10px ;
+}
+.name-and-review h3{
+    font-size: 35px;
 }
 
 .name-and-review ul{
@@ -46,29 +57,11 @@
     all: unset;
 }
 
+.name-and-review ul li img{
+    width: 100%;
+}
 .name-and-review p{
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 15px;
     color: gray;
-}
-
-.slider-buttons{
-    width: 100%;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-}
-
-.slider-buttons button{
-    all: unset;
-    padding: 10px;
-    background: #0464C4;
-    cursor: pointer;
-    border-radius: 3px;
-}
-
-.slider-buttons button:last-child{
-    transform: rotateZ(180deg);
 }
